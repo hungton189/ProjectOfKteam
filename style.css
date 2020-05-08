@@ -1,0 +1,99 @@
+/*-------------default----------------*/
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: "Lato",sans-serif;    /*font lato của google*/
+	font-weight: 400;					/*Độ dày mỏng của chữ*/
+	font-size: 16px;
+	line-height: 1.7;
+	color: #777;
+	padding: 30px;						/*thiết lập chiều cao giữa các dòng*/
+}
+a
+{
+	text-decoration: none;
+}
+
+/*-------------Phần header-------------------*/
+
+header
+{
+	background-image: 
+    linear-gradient(to right bottom, rgba(142, 158, 252, .6),rgba(28, 62, 255, .6)),
+    url('../img/background1.jpg');
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	height: 90vh;
+
+}
+
+
+/*-----------phần logo-----------------*/
+.logo-box
+{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+.logo
+{
+	height: 70px;
+}
+
+
+/*---------------phần text box----------------------*/
+.text-box
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.heading-primary
+{
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+
+.heading-primary-main
+{
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+
+
+.heading-primary__sub{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 12px;
+}
+
+/*---------chỉnh button---------------*/
+
+.btn
+{
+	background-color: #d27e2f;
+	border-radius: 10px;
+	padding: 6px 8px;
+	color: green;
+	transition: .5s;
+}
+
+.btn:hover
+{
+	padding: 6px 20px;
+}
